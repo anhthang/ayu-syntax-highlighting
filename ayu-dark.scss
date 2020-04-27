@@ -56,7 +56,7 @@
   // .ld { color: #93a1a1 } /* Literal.Date */
   .m { color: $constant } /* Literal.Number */
   .s { color: $constant } /* Literal.String */
-  .na { color: $markup } /* Name.Attribute */
+  .na { color: $entity } /* Name.Attribute */
   .nb { color: $entity } /* Name.Builtin */
   .nc { color: $func } /* Name.Class */
   .no { color: $constant } /* Name.Constant */
@@ -87,6 +87,7 @@
   .sr { color: $regexp } /* Literal.String.Regex */
   .s1 { color: $string } /* Literal.String.Single */
   .ss { color: $tag } /* Literal.String.Symbol */
+  .s { color: $string } /* Literal.String */
   .bp { color: $entity } /* Name.Builtin.Pseudo */
   .vc { color: $entity } /* Name.Variable.Class */
   .vg { color: $entity } /* Name.Variable.Global */
