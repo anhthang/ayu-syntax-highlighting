@@ -1,0 +1,95 @@
+/**
+ * Code Highlighting Style for Jekyll or Pygments
+ * Ayu Dark by dempfi
+ * https://github.com/dempfi
+ */
+
+ $accent: #e6b450;
+ $background: #0a0e14;
+ $foreground: #b3b1ad;
+ $ui: #3d424d;
+ $tag: #39bae6;
+ $func: #ffb454;
+ $entity: #59c2ff;
+ $string: #c2d94c;
+ $regexp: #95e6cb;
+ $markup: #f07178;
+ $keyword: #ff8f40;
+ $special: #e6b673;
+ $comment: #626a73;
+ $constant: #ffee99;
+ $operator: #f29668;
+ $error: #ff3333;
+
+.highlight {
+  background-color: $background;
+  color: $foreground;
+  .c { color: $comment; font-style: italic; } /* Comment */
+  .err { color: $background; background-color: $error; } /* Error */
+  // .g { color: $generic } /* Generic */
+  .k { color: $keyword } /* Keyword */
+  // .l { color: #93a1a1 } /* Literal */
+  // .n { color: #93a1a1 } /* Name */
+  .o { color: $operator } /* Operator */
+  // .x { color: #cb4b16 } /* Other */
+  // .p { color: #93a1a1 } /* Punctuation */
+  .cm { color: $comment } /* Comment.Multiline */
+  .cp { color: $comment } /* Comment.Preproc */
+  .c1 { color: $comment } /* Comment.Single */
+  .cs { color: $special } /* Comment.Special */
+  .gd { color: $error } /* Generic.Deleted */
+  .ge { font-style: italic } /* Generic.Emph */
+  .gr { color: $background; background-color: $error; } /* Generic.Error */
+  .gh { color: $accent } /* Generic.Heading */
+  .gi { color: $string } /* Generic.Inserted */
+  .go { color: $foreground } /* Generic.Output */
+  .gp { color: $foreground } /* Generic.Prompt */
+  .gs { font-weight: bold } /* Generic.Strong */
+  .gu { color: $foreground } /* Generic.Subheading */
+  .gt { color: $background; background-color: $error; } /* Generic.Traceback */
+  .kc { color: $keyword } /* Keyword.Constant */
+  .kd { color: $keyword } /* Keyword.Declaration */
+  .kn { color: $operator } /* Keyword.Namespace */
+  .kp { color: $keyword } /* Keyword.Pseudo */
+  .kr { color: $keyword } /* Keyword.Reserved */
+  .kt { color: $keyword } /* Keyword.Type */
+  // .ld { color: #93a1a1 } /* Literal.Date */
+  .m { color: $constant } /* Literal.Number */
+  .s { color: $constant } /* Literal.String */
+  .na { color: $markup } /* Name.Attribute */
+  .nb { color: $entity } /* Name.Builtin */
+  .nc { color: $func } /* Name.Class */
+  .no { color: $constant } /* Name.Constant */
+  .nd { color: $func } /* Name.Decorator */
+  .ni { color: $entity } /* Name.Entity */
+  .ne { color: $func } /* Name.Exception */
+  .nf { color: $func } /* Name.Function */
+  .nl { color: $entity } /* Name.Label */
+  .nn { color: $entity } /* Name.Namespace */
+  // .nx { color: #93a1a1 } /* Name.Other */
+  // .py { color: #93a1a1 } /* Name.Property */
+  .nt { color: $tag } /* Name.Tag */
+  .nv { color: $entity } /* Name.Variable */
+  .ow { color: $operator } /* Operator.Word */
+  .w { color: $entity } /* Text.Whitespace */
+  .mf { color: $constant } /* Literal.Number.Float */
+  .mh { color: $constant } /* Literal.Number.Hex */
+  .mi { color: $constant } /* Literal.Number.Integer */
+  .mo { color: $constant } /* Literal.Number.Oct */
+  .sb { color: $string } /* Literal.String.Backtick */
+  .sc { color: $string } /* Literal.String.Char */
+  .sd { color: $string } /* Literal.String.Doc */
+  .s2 { color: $string } /* Literal.String.Double */
+  .se { color: $constant } /* Literal.String.Escape */
+  .sh { color: $string } /* Literal.String.Heredoc */
+  .si { color: $string } /* Literal.String.Interpol */
+  .sx { color: $string } /* Literal.String.Other */
+  .sr { color: $regexp } /* Literal.String.Regex */
+  .s1 { color: $string } /* Literal.String.Single */
+  .ss { color: $tag } /* Literal.String.Symbol */
+  .bp { color: $entity } /* Name.Builtin.Pseudo */
+  .vc { color: $entity } /* Name.Variable.Class */
+  .vg { color: $entity } /* Name.Variable.Global */
+  .vi { color: $entity } /* Name.Variable.Instance */
+  .il { color: $constant } /* Literal.Number.Integer.Long */
+}
